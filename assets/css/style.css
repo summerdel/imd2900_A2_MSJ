@@ -273,6 +273,7 @@ body {
   background-color: transparent;
   padding-block: 18px;
   z-index: 4;
+  background-color: black;
 }
 
 .header::after {
