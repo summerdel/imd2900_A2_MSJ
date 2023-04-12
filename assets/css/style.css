@@ -252,9 +252,10 @@ body {
   left: 0;
   width: 100%;
   background-color: transparent;
-  padding-block: 18px;
+  padding-block: 10px;
   z-index: 4;
   background-color: black;
+  height: auto;
 }
 
 .header::after {
@@ -279,7 +280,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 50px;
+ /* gap: 10px;*/
 }
 
 .logo {
