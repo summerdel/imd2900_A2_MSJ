@@ -247,7 +247,7 @@ body {
 .header-action { display: none; }
 
 .header {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -557,13 +557,16 @@ body {
 /*-----------------------------------*\
   #SERVICE
 \*-----------------------------------*/
-
+p{
+  padding-bottom: 30px;
+}
 .service {
   background-color: var(--baby-powder);
   background-repeat: no-repeat;
   background-position: center top;
   margin-block-start: -200px;
   padding-block-start: 200px;
+  
 }
 
 .service .section-title { margin-block: 10px 40px; }
@@ -581,6 +584,7 @@ body {
   outline: 3px solid transparent;
   box-shadow: var(--card-shadow);
   transition: var(--transition-2);
+  height: 100 px;
 }
 
 .service-card:is(:hover, :focus-within) { outline-color: var(--pistachio); }
