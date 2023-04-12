@@ -1117,7 +1117,7 @@ li .service-card {
 
   /**
    * FOOTER
-   */
+   
 
   .footer .container {
     display: flex;
@@ -1133,7 +1133,7 @@ li .service-card {
   .footer-list { margin-block-end: 0; }
 
 }
-
+*/
 
 
 
@@ -1450,7 +1450,7 @@ li .service-card {
 
   /**
    * FOOTER
-   */
+   
 
   .footer .container {
     margin-inline: 30px;
