@@ -1,37 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Help the Animals</title>
 
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+      <!-- 
+        - #DONATE : only could get it working without the header
+      -->
 
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+        <link rel = "stylesheet" href = "./assets/css/style-donate.css">
+        
+      </head>
+      
+      <body>
 
-  <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
-    rel="stylesheet">
-</head>
-<!--test-->
-<body>
-
-  <!-- 
-    - #HEADER
-  -->
+    <!-- 
+      - #HEADER
+    -->
 
   <header class="header" data-header>
     <div class="container">
@@ -64,7 +54,7 @@
         <ul class="navbar-list">
 
           <li>
-            <a href="index.html" class="navbar-link" data-nav-link>
+            <a href="#index.html" class="navbar-link" data-nav-link>
               <span>Home</span>
 
               <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
@@ -88,7 +78,7 @@
           </li>
 
           <li>
-            <a href="donate-newsletter.html" class="navbar-link" data-nav-link>
+            <a href="#donate-newsletter.html" class="navbar-link" data-nav-link>
               <span>Donate</span>
 
               <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
@@ -96,15 +86,15 @@
           </li>
 
           <li>
-            <a href="events.html" class="navbar-link" data-nav-link>
-              <span>Event</span>
+            <a href="#events.html" class="navbar-link" data-nav-link>
+              <span>Events</span>
 
               <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link" data-nav-link>
+            <a href="#contact.html" class="navbar-link" data-nav-link>
               <span>Contact</span>
 
               <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
@@ -131,5 +121,86 @@
 
     </div>
   </header>
+
+      <!--
+        - #DONATE TEXT
+      -->
+
+      <div class="about-content">
+
+        <p class="section-subtitle">
+          <br>
+          <span>PAW Makes it Possible</span>
+        </p>
+
+        <h2 class="h2 section-title">
+          Become a Hero <strong>For the Animals!</strong>
+        </h2>
+
+        <div class="tab-content">
+
+          <p class="section-text">
+            By becoming a PAW donor, you are helping save the lives of animals in our community. PAW monthly giving is the most cost-efficient way to donate and the best way to help the animals in our care. And, the money you help us save on administration costs means more animals will benefit from your gift.
+            Once you’ve signed up as a PAW monthly donor, we automatically deduct your donation once a month from your bank account or your credit card. Then at the end of the year, you will receive one consolidated tax receipt for the year.
+          </p>
+          
+          <p class="section-text">
+            One time gifts are also greatly appreciated and will go towards helping Ottawa's animals!
+          </p>
+          
+          </ul>
+
+      <!--
+        - #DONATE FORM - source: https://codepen.io/DevinWalker/pen/EKRzPx
+      -->
+
+      <div class="donation-container">
+                  
+                  <div class="donation-box">
+                    <div class="title">Donation Information</div>
+                    
+                    <div class="fields">
+                      <input type="text" id="firstName" placeholder="First Name"> </input>
+                      <input type="text" id="lastName" placeholder="Last Name"> </input>
+                      <input type="text" id="email" placeholder="Email"> </input>
+                    </div>
+                    
+                    <div class="amount">
+                      <div class="button">$30</div>
+                      <div class="button">$50</div>
+                      <div class="button">$100</div>
+                      <div class="button">$<input type="text" class="set-amount" placeholder=""> </input></div>
+                    </div>
+                    
+                    <div class="switch">
+                <input type="radio" class="switch-input" name="view" value="One-Time" id="one-time" checked="">
+                <label for="one-time" class="switch-label switch-label-off">One-Time</label>
+                <input type="radio" class="switch-input" name="view" value="Monthly" id="monthly">
+                <label for="monthly" class="switch-label switch-label-on">Monthly</label>
+                <span class="switch-selection"></span>
+                </div>
+                
+                <div class="checkboxes">
+                <input type="checkbox" id="receipt" class="checkbox" />
+                <label for="receipt">Email Me A Receipt</label>
+                <br />
+                <input type="checkbox" id="anon" class="checkbox" />
+                <label for="anon">Give Anonymously</label>
+                <br />
+                <input type="checkbox" id="list" class="checkbox" />
+                <label for="list">Add Me To Email List</label>
+                </div>
+                
+                <div class="confirm">
+                  
+                </div>
+                    
+                    <div class="donate-button"><i class="fa fa-credit-card"></i> Donate Now</div>
+                  </div>
+                  
+              </div>
+      
+              <script src = "./assets/js/script-donate.js"></script>
+      </body>
 
 

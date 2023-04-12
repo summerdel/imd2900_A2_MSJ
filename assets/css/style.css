@@ -364,16 +364,13 @@ body {
 .navbar-link:is(:hover, :focus) { background-color: var(--pistachio); }
 
 
-
-
-
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
 
 .hero {
   background-color: var(--eerie-black-1);
-  color: var(--white);
+  color: var(--black);
   min-height: 700px;
   padding-block: 120px 60px;
   display: grid;
@@ -381,7 +378,7 @@ body {
 }
 
 .hero .section-subtitle {
-  --color: var(--white);
+  --color: var(--black);
   --ff: var(--ff-inter);
   --fs: var(--fs-7);
 }
