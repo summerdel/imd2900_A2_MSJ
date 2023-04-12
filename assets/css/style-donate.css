@@ -5,6 +5,7 @@
 	font-size: 12px;
 	text-transform: uppercase;
 	margin-top: 30px;
+	position: relative;
 }
 
 .donation-box {
@@ -23,6 +24,9 @@
 	transition: all 0.15s ease-out;
 }
 
+.title{
+	font-size: 60px;
+}
 .donation-box .title {
 	background-color: #9DC209; 
 	width: 100%;
@@ -32,7 +36,8 @@
 	text-align: center;
 	padding-top: 12px;
 	padding-bottom: 12px;
-	font-size: 15px;
+	font-size: 20px;
+	padding-bottom: 5px;
 }
 
 .donation-box .donate-button {
@@ -59,16 +64,18 @@
 }
 
 .donation-box .fields input {
-	width: 90%;
+	width: 70%;
 	font-size: 17px;
 	padding: 10px;
 	border-radius: 4px;
+	padding-top: 20px;
 	border-width: 0px;
-	color: #5C5C5C;
+	color: #6C5C5C;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	margin-bottom: 10px;
 	-webkit-font-smoothing: antialiased;
+	widd
 }
 
 ::-webkit-input-placeholder {
@@ -149,7 +156,7 @@
 }
 .fields #email input
 {
-	margin-bottom: 30px;
+	margin-bottom: 5px;
 }
 
 .set-amount {

@@ -566,17 +566,20 @@ p{
   background-position: center top;
   margin-block-start: -200px;
   padding-block-start: 200px;
+  display: flex;
   
 }
 
 .service .section-title { margin-block: 10px 40px; }
 
 .service-list {
-  display: grid;
+ /* display: grid;*/
   gap: 30px;
+  display: flex;
+  flex-direction: row;
 }
 
-.service-card {
+li .service-card {
   background-color: var(--white);
   text-align: center;
   padding: 45px 40px;
@@ -585,6 +588,7 @@ p{
   box-shadow: var(--card-shadow);
   transition: var(--transition-2);
   height: 100 px;
+  flex: 1;
 }
 
 .service-card:is(:hover, :focus-within) { outline-color: var(--pistachio); }
@@ -888,7 +892,7 @@ p{
 
 /*-----------------------------------*\
   #FOOTER
-\*-----------------------------------*/
+\*-----------------------------------
 
 .footer {
   background-color: var(--raisin-black);
@@ -936,7 +940,7 @@ p{
 
 .copyright-link { display: inline-block; }
 
-
+*/
 
 
 
