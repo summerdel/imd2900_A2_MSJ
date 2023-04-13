@@ -1,3 +1,6 @@
+/*-----------------------------------*\
+  #style-donate.css
+\*-----------------------------------*/
 .donation-container {
 	height: 1000px;
 	font-family: 'Montserrat', sans-serif;
@@ -26,6 +29,13 @@
 .section-text{
 	width: 85%;
 }
+
+.logo {
+	color: var(--white);
+	font-family: var(--ff-oswald);
+	font-size: 3.2rem;
+	text-transform: uppercase;
+  }
 
 .title{
 	font-size: 60px;
@@ -90,15 +100,7 @@ background-color:#9DC209;
 
 }
 
-:-moz-placeholder { /* Firefox 18- */
-   color: #cdcdcd;
-   font-size: 15px;
-}
 
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #cdcdcd;
-   font-size: 15px; 
-}
 
 :-ms-input-placeholder {  
    color: #cdcdcd;

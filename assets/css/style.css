@@ -4,9 +4,7 @@
 
 :root {
 
-  /**
-   * colors
-   */
+  /** colors*/
 
   --bright-yellow-crayola: hsl(40, 100%, 50%);
   --medium-turquoise: hsl(172, 48%, 59%);
@@ -365,7 +363,7 @@ body {
 
 
 /*-----------------------------------*\
-  #HERO
+  front display hero picture/landing page
 \*-----------------------------------*/
 
 .hero {
@@ -401,48 +399,14 @@ body {
 
 
 
-/*-----------------------------------*\
-  #FEATURES
-\*-----------------------------------*/
 
-.features {
-  padding-block-start: 0;
-  background-color: var(--eerie-black-1);
-}
-
-.features-list {
-  display: grid;
-  gap: 30px;
-}
-
-.features-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 25px;
-}
-
-.features-item .item-icon {
-  color: var(--pistachio);
-  font-size: 5.5rem;
-  margin-block-start: 10px;
-} 
-
-.features-item .item-icon ion-icon { --ionicon-stroke-width: 25px; }
-
-.features-item .item-title { margin-block-end: 10px; }
-
-.features-item .item-text {
-  max-width: 25ch;
-  color: var(--white_50);
-  font-size: var(--fs-9);
-}
 
 
 
 
 
 /*-----------------------------------*\
-  #ABOUT
+  #ABOUT  + SERVICES AND EXTRAS
 \*-----------------------------------*/
 
 .about { padding-block-start: 120px; }
@@ -527,35 +491,11 @@ body {
 
 
 
-/*-----------------------------------*\
-  #CTA
-\*-----------------------------------*/
-
-.cta-content {
-  background-color: var(--pistachio);
-  text-align: center;
-  padding: 50px 15px;
-  margin-block-end: 30px;
-}
-
-.cta .section-title {
-  color: var(--white);
-  font-size: var(--fs-4);
-  font-weight: var(--fw-600);
-  line-height: 1.2;
-  margin-block-end: 25px;
-}
-
-.cta .btn-outline { margin-inline: auto; }
-
-.cta-banner { background-color: var(--light-gray); }
-
-
 
 
 
 /*-----------------------------------*\
-  #SERVICE
+  SERVICES PAGE
 \*-----------------------------------*/
 p{
   padding-bottom: 30px;
@@ -627,7 +567,7 @@ li .service-card {
 
 
 /*-----------------------------------*\
-  #DONATE
+  #DONATE + STYLE-DONATE CSS AS EXTRA
 \*-----------------------------------*/
 
 .donate-list {
@@ -714,7 +654,7 @@ li .service-card {
 
 
 /*-----------------------------------*\
-  #TESTIMONIALS
+  TESTIMONIALS AND CONTACT
 \*-----------------------------------*/
 
 .testi { background-color: var(--jet); }
@@ -751,32 +691,11 @@ li .service-card {
 
 
 
-/*-----------------------------------*\
-  #PARTNER
-\*-----------------------------------*/
-
-.partner { background-color: var(--baby-powder); }
-
-.partner .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
-.partner-logo .color,
-.partner-logo:is(:hover, :focus) .gray { display: none; }
-
-.partner-logo:is(:hover, :focus) .color,
-.partner-logo .gray { display: block; }
-
-
 
 
 
 /*-----------------------------------*\
-  #EVENT
+  #EVENTS
 \*-----------------------------------*/
 
 .event { padding-block-end: 120px; }
@@ -843,9 +762,8 @@ li .service-card {
 
 
 
-/*-----------------------------------*\
-  #INSTA POST
-\*-----------------------------------*/
+/*---------------------INSTAGRAM POSTS--------------*/
+  
 
 .insta-post-link {
   position: relative;
@@ -890,63 +808,10 @@ li .service-card {
 
 
 
-/*-----------------------------------*\
-  #FOOTER
-\*-----------------------------------
-
-.footer {
-  background-color: var(--raisin-black);
-  color: var(--white);
-  font-family: var(--ff-inter);
-  padding-block: 40px;
-  width: 100%;
-
-}
-
-.footer .container {
-  margin-inline: 15px;
-  background-color: var(--eerie-black-3);
-  padding: 20px;
-  width: 100%;
-}
-
-.footer-list,
-.copyright {
-  max-width: max-content;
-  margin-inline: auto;
-}
-
-.footer-list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 5px 40px;
-  margin-block-end: 15px;
-}
-
-.footer-link,
-.copyright-link {
-  text-decoration: underline;
-  transition: var(--transition-1);
-}
-
-.footer-link {  color: var(--white_50); }
-
-:is(.footer-link, .copyright-link):is(:hover, :focus) { 
-  background-color: hsla(0, 0%, 100%, 0.05);
-}
-
-.copyright { text-align: center; }
-
-.copyright-link { display: inline-block; }
-
-*/
-
 
 
 /*-----------------------------------*\
   #MEDIA QUERIES
-\*-----------------------------------*/
 
 /**
  * responsive for larger than 450px screen
@@ -954,9 +819,7 @@ li .service-card {
 
 @media (min-width: 450px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+ 
 
   :root {
 
